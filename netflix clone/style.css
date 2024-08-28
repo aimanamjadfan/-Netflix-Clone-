@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/header-image.png);
+    background-size: cover;
+  /* background-position: center;
+    position: relative; */
+}
+.header.aa{
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+.header img{
+    margin-left: 230px;
+    margin-top: 1px;
+    height: 40px;
+}
+/* nav .btn{
+    margin-left: 10px;
+border-radius: 12px;
+box-sizing: 129px;
+font-size: 12px;
+padding: 7px 20px;
+background-color: red;
+} */
+ nav .btn{
+    margin-left: 1300px;
+    margin-top: 10px;
+ }
+nav .btn{
+    margin-top: 1;
+  
+     /* padding:10px 20px;
+     font-size:13px;
+     background-color: rgb(180, 36, 36);
+     text-decoration-color: white; */
+ }
+
+ .content{
+    margin-top: 180px;
+    justify-content: center;
+  
+   
+ }
+ .content h1{
+    font-size: 60px;
+    margin-left: 500px;
+ }
+ .content h3{
+    margin-left: 700px;
+    font-size: 60px;
+ }
+ .content p{
+    margin-left: 600px;
+ }
+ .email{
+    text-decoration-color: aliceblue;
+     margin-left: 600px;
+     padding: 10px 130px;    
+ 
+}
+.email{
+    margin-left: 430px;
+
+}
+.email button{
+    background-color: rgb(131, 11, 11);
+    padding-left: 32px;
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+}
+.email input{
+    padding-left: 410px;
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+
+
+.feature .a{
+   flex-basis: 50%;
+
+} 
+/* is sa side y side aya ha  */
+.row{
+    display: flex;
+    width:100%;
+    height: 100%;
+}
+.a{
+    margin-top: 400px;
+    margin-left: 120px;
+}
+.a h1{
+    font-size: 60px;
+}
+.a p{
+    font-size: 20px;
+    margin-left: 123px;
+}
+.b{
+    margin-top: 170px;
+    margin-left: 320px;    
+}
+.col{
+    display: flex;
+    width: 50%;
+    flex: 50%;
+}
+.d {
+    margin-top: 170px;
+
+    margin-left: 563px;
+}  
+ .d h1{
+    
+    font-size: 60px;
+    
+ }
+ .features{
+    height: 800px;
+ }
+.download .b p{
+    font-size: 20px;
+    margin-left: 123px;
+}
+.aa{
+    margin-top: 200px;
+    margin-left: 120px;
+ }
+ .aa h1{
+     font-size: 60px;
+ }
+ .aa p{
+     font-size: 20px;
+     margin-left: 123px;
+ }
+
+ .ques h1{
+    margin-left: 723px;
+ }
+ .ques #first{
+    margin-left: 393px;
+    margin-top: 45px;
+ }
+ 
+ .ques #second{
+    margin-left: 393px;
+    margin-top: 45px;
+ }
+ 
+ .ques #third{
+    margin-left: 393px;
+    margin-top: 45px;
+ }
+ 
+ .ques #fourth{
+    margin-left: 393px;
+    margin-top: 45px;
+ }
+ .ques p{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 423px;
+    margin-right: 423px;
+ }
+ .ques #fifth{
+   margin-left: 393px;
+    margin-top: 45px;
+ }
+.ques label{
+    border: 2px solid white;
+    padding: 20px 470px;
+    display: flex;
+    cursor: pointer;  
+     margin-left: 300px;
+    margin-right: 490px;   
+}
+label::after{
+    content: '+';
+    position: absolute;
+    right: 500px;
+    margin-top: 1px;
+    font-size: 30px;
+}
+input[type="radio"]{
+    display: none;
+}
+ /* is sa hidden ho jai ga sab */
+.ques .c{
+    text-align: left;
+    max-height: 0;   
+    padding: 0px 20px;
+    overflow: hidden;
+    background: #303030;
+    transition:max-height 0.5s,   padding 0.5s;
+}
+
+.ques input[type="radio"]:checked + label + .c{
+    max-height: 500px;
+    padding:30px 20px;
+}
+
